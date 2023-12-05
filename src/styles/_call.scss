@@ -1,0 +1,64 @@
+.call{
+  padding-top: 50px;
+  display: flex;
+  &-left{
+    width: 962px;
+    height: 426px;
+    flex-shrink: 0;
+    &-img{
+      width: 962px;
+      height: 426px;
+      flex-shrink: 0;
+    }
+  }
+  &__right{
+    background: #2F5691;
+    width: 962px;
+    height: 415px;
+    flex-shrink: 0;
+    position: relative;
+    &-title{
+      color: #FFF;
+      padding: 52px 0 23px 50px;
+      font-family: Merriweather, sans-serif;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 105.7%;
+    }
+    &-form{
+      margin: 23px 50px;
+    }
+    &-info{
+      display: flex;
+    margin-left: 50px;
+      gap: 20px;
+      &-btn{
+        @extend %buttonGradient;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 21px 28px;
+      }
+      &-text{
+        color:  #F2C94C;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        text-decoration-line: underline;
+      }
+    }
+  }
+}
+
+.block__map{
+  width: 1920px;
+  height: 426px;
+  flex-shrink: 0;
+}

@@ -1,0 +1,73 @@
+.interest{
+  padding:120px 200px 100px 180px ;
+
+  &__title{
+    color: #2F5691;
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 50px;
+  }
+  &__content{
+    @extend %FlexCenter;
+    gap: 31px;
+    &-box{
+      background:#172141;
+      width: 369px;
+      height: 700px;
+      flex-shrink: 0;
+      position: relative;
+      border-radius: 16px;
+      &-img{
+        width: 249px;
+        height: 249px;
+        flex-shrink: 0;
+        border-radius: 249px;
+        margin: 0 61px 0 51px;
+      }
+      &-title{
+        color:  #FFF;
+        padding: 17px 23px 15px 37px;
+        font-family: Merriweather, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+      }
+      &-list{
+        padding: 15px 31px 21px 29px;
+      }
+    }
+    &-svg{
+      position: absolute;
+      bottom: 20%;
+      left: 140px;
+      &-two{
+        position: absolute;
+        bottom: 15%;
+        right: 3%;
+      }
+    }
+  }
+  &__btn{
+    @extend %buttonGradient;
+    padding: 21px 42px;
+    margin: 21px 110px 0 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &__subtitle{
+    color:  #2F5691;
+    padding: 60px 0 41px;
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

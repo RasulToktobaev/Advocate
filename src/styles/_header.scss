@@ -1,0 +1,204 @@
+.header{
+  background: rgb(42,60,113);
+  background: linear-gradient(132deg, rgba(42,60,113,1) 18%, rgba(34,31,145,0.9304971988795518) 52%, rgba(8,12,73,1) 72%, rgba(66,67,236,1) 95%);
+  width: 100%;
+  height:100%;
+  flex-shrink: 0;
+  &__content{
+    padding: 34px 0 57px ;
+  }
+  &__team{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    &-logo{
+      &-svg{
+        width: 75.982px;
+        height: 75.318px;
+        flex-shrink: 0;
+      }
+    }
+  }
+  &__title{
+    color:  #FFF;
+    font-family: Merriweather, sans-serif;
+  }
+  &__subtitle{
+    color:  #FFF;
+    font-family: Merriweather, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__text{
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  &__section{
+    background: #172141;
+    padding: 34px 0 57px 240px;
+    position: relative;
+  }
+  &__help{
+    display: flex;
+    flex-direction: column;
+    padding-left: 6%;
+    &-text{
+      color: #FFF;
+      font-family: Roboto, sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 17px;
+    }
+    &-svg{
+      display: flex;
+      gap: 10px;
+      margin-bottom: 36px;
+    }
+    &-tel{
+      color:#FFF;
+      font-family: Roboto, sans-serif;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  &__btn{
+    @extend %buttonGradient;
+    display: inline-flex;
+    padding: 21px 42px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &__name{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 65%;
+    bottom: 22%;
+    row-gap: 16px;
+    &-text{
+      color:  #FFF;
+      font-family: Roboto, sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+  &__svg{
+    position: absolute;
+    bottom: 25%;
+    left: 40%;
+  }
+}
+//nav-start
+
+.nav{
+  padding: 52px 337px 50px 343px;
+  &__content{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 70px;
+  }
+}
+.main__nav{
+  &-list{
+    display: flex;
+    gap: 70px;
+    &-item{
+      color: #172141;
+      font-family: Roboto,serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+
+    }
+  }
+}
+
+//second-style
+
+.header__direction{
+background: url("../images/direction-header-bg.jpg")
+center/ cover no-repeat;
+  width: 1920px;
+  height: 790px;
+  flex-shrink: 0;
+}
+
+.footer__content-city-direction{
+  display: flex;
+position: absolute;
+  top: 4%;
+}
+
+.header__title-direction{
+  padding-top: 20px;
+  padding-left: 8%;
+}
+.header__team-logo-svg-direction{
+  position: absolute;
+  left: 20%;
+  top: 20px;
+}
+.main__nav-list-item-direction{
+  color: white;
+  padding-top: 75px;
+  font-size: 18px;
+}
+
+.main__search-direction{
+  padding-top: 75px;
+
+}
+.direction__content-right-truck-two{
+margin-left: 60%;
+  margin-top: 10%;
+}
+.header__lawyer{
+  display: flex;
+  flex-direction: column;
+  &-title{
+    color: white;
+    padding-bottom: 18px;
+    font-family: Merriweather, sans-serif;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &-text{
+    color:  #FFF;
+    padding-bottom: 52px;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+}
+.interest__content-svg-two-second{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+}

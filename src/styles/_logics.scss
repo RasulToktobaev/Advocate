@@ -1,0 +1,44 @@
+.logics{
+  padding: 80px 0 127px 0;
+  position: relative;
+  &__title{
+    color: #2F5691;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__block{
+    width: 1169px;
+    height: 823px;
+    flex-shrink: 0;
+    &-text{
+      color: #6F737D;
+      font-family: Roboto, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+  &__btn{
+    @extend %buttonGradient;
+    display: inline-flex;
+    padding: 21px 42px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    bottom: 16%;
+
+  }
+}
