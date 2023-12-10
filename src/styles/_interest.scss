@@ -13,6 +13,15 @@
   &__content{
     @extend %FlexCenter;
     gap: 31px;
+    &-discryption{
+      color: #EBEFF4;
+      font-family: Roboto, sans-serif ;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 220.688%;
+      padding-left: 30px;
+    }
     &-box{
       background:#172141;
       width: 369px;

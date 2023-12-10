@@ -87,14 +87,118 @@
 
 .education{
   padding-top: 79px;
+  position: relative;
   &__content{
     display: flex;
     gap: 31px;
+    &-svg{
+      position: absolute;
+      bottom: 84%;
+    }
+    &-left{
+      width: 569px;
+      height: 852px;
+      flex-shrink: 0;
+      border-radius: 16px;
+      background:  #EBEFF4;
+      &-title{
+        color: #2F5691;
+        font-family: Merriweather, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 120px;
+&-info{
+  color: #2F5691;
+  font-family: Merriweather, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 120px;
+  position: absolute;
+  top: 10%;
+}
+   &-sub{
+     color: #2F5691;
+     font-family: Merriweather, sans-serif;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-left: 120px;
+     position: absolute;
+     top: 10%;
+   }
+        &-push{
+            color: #2F5691;
+            font-family: Merriweather, sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-left: 120px;
+            position: absolute;
+            top: 55%;
+        }
+        &-add{
+          color: #2F5691;
+          font-family: Merriweather, sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-left: 120px;
+          position: absolute;
+          bottom: 18%;
+        }
+
+      }
+      &-text{
+        color: #6F737D;
+        font-family: Roboto,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        padding-left: 20px;
+
+      }
+    }
+
     &-right{
       display: flex;
       flex-direction: column;
       gap: 25px;
+      &-svg{
+        position: absolute;
+        right: 45%;
+      }
+      &-box{
+        width: 580px;
+        height: 394px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background:  #EBEFF4;
+        &-two{
+          width: 569px;
+          height: 204px;
+          flex-shrink: 0;
+          border-radius: 16px;
+          background:  #EBEFF4;
+        }
+        &-three{
+          width: 569px;
+          height: 204px;
+          flex-shrink: 0;
+          border-radius: 16px;
+          background:  #EBEFF4;
+        }
+      }
+
     }
+
   }
 }
 .work__content-box-direction-education{

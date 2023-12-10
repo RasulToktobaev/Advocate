@@ -17,9 +17,14 @@
   &__info{
     display: flex;
     flex-wrap: wrap;
-
+    cursor: pointer;
     gap: 20px;
     &-btn, {
+      &.active,&:hover{
+        background: black;
+        transition: 1s;
+      }
+      cursor: pointer;
       border-radius: 60px;
       border: 2px solid  #FFF;
       padding: 18px 28px;
@@ -35,8 +40,17 @@
     }
   }
  &__content{
-   padding: 30px 60px 83px 200px;
-   display: flex;
+   padding-top: 30px;
+   position: relative;
+   right: 15%;
+   padding-bottom: 15%;
+
+
+   display: none;
+   &.active{
+     display: flex;
+   }
+
 
    &-left{
      width: 750px;

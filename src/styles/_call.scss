@@ -17,6 +17,10 @@
     height: 415px;
     flex-shrink: 0;
     position: relative;
+    &-label{
+      display: flex;
+
+    }
     &-title{
       color: #FFF;
       padding: 52px 0 23px 50px;
@@ -61,4 +65,44 @@
   width: 1920px;
   height: 426px;
   flex-shrink: 0;
+}
+.call__form{
+  &-name{
+    width: 238px;
+    height: 56px;
+    flex-shrink: 0;
+    padding-left: 45px;
+    margin-left: 50px;
+    border-radius: 4px;
+    border: 2px solid #E0B473;
+
+  }
+  &-desc{
+    width: 532px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 2px solid  #E0B473;
+    margin-top: 27px;
+    margin-left: 50px;
+    padding-left: 45px;
+    background: #FFF;
+    margin-bottom: 25px;
+  }
+  &-user{
+    position: absolute;
+    right: 90%;
+    top: 35%;
+  }
+  &-men{
+    position: absolute;
+    left:36%;
+    top: 35%;
+  }
+  &-admin{
+    position: absolute;
+    top: 55%;
+    right: 90%;
+
+  }
 }
