@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Направление</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400;1,900&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,300;0,400;0,900;1,400&display=swap" rel="stylesheet">
@@ -107,8 +108,8 @@
                         <ul class="main__nav-list">
                             <li class="main__nav-list-item-direction"><a target="_blank" href="../pages/team.html">Команда</a></li>
                             <li class="main__nav-list-item-direction"><a href="#">Направления</a></li>
-                            <li class="main__nav-list-item-direction"><a href="#">Стоимость</a></li>
-                            <li class="main__nav-list-item-direction"><a href="#">Практика</a></li>
+                            <li class="main__nav-list-item-direction"><a href="../pages/price.html">Стоимость</a></li>
+                            <li class="main__nav-list-item-direction"><a href="../pages/services.html">Практика</a></li>
                             <li class="main__nav-list-item-direction"><a href="#">Благодарности</a></li>
                             <li class="main__nav-list-item-direction"><a href="#">Статьи</a></li>
                             <li class="main__nav-list-item-direction"><a href="#">Контакты</a></li>
@@ -198,9 +199,9 @@
         </div>
     </section>
 
-    <section class="work">
+    <section data-aos="flip-up"  class="work">
         <div class="container">
-            <h2 class="work__subtitle">Услуги в сфере логистики</h2>
+            <h2  class="work__subtitle">Услуги в сфере логистики</h2>
             <div class="work__content">
 
                 <div class="work__content-right-direction">
@@ -1164,7 +1165,7 @@
 
     <section class="result">
         <div class="container">
-            <h2 class="result__title">Результаты</h2>
+            <h2 data-aos="zoom-in" class="result__title">Результаты</h2>
             <p class="result__discryption">За годы работы получено более 100 отзывов и благодарностей, часть из них опубликовано на этом сайте.
                 <br>
 
@@ -1239,7 +1240,7 @@
     <section class="logics">
         <div class="container">
             <h2 class="logics__title">Юрист по логистике</h2>
-            <div class="logics__block">
+            <div data-aos="zoom-out-up" class="logics__block">
                 <p class="logics__block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
                     <br>
                     <br>
@@ -1428,5 +1429,12 @@
 
 </footer>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+
+
+</script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

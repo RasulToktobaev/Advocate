@@ -21,7 +21,7 @@
     gap: 20px;
     &-btn, {
       &.active,&:hover{
-        background: black;
+        background: gold;
         transition: 1s;
       }
       cursor: pointer;
@@ -111,4 +111,8 @@
 }
 
 
-
+.active-img{
+  width: 750px;
+  height: 572px;
+  object-fit: cover;
+}

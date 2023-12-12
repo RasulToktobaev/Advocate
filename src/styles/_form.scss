@@ -1,0 +1,162 @@
+.call{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-left{
+    width: 962px;
+    height: 426px;
+    flex-shrink: 0;
+
+  }
+  &__right-one{
+    background: white;
+    width: 962px;
+    height: 415px;
+    flex-shrink: 0;
+    position: relative;
+    &-label{
+      display: flex;
+
+    }
+    &-title{
+      color: green;
+      padding: 52px 0 23px 50px;
+      font-family: Merriweather, sans-serif;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 105.7%;
+    }
+    &-form{
+      margin: 23px 50px;
+    }
+    &-info{
+      display: flex;
+      margin-left: 50px;
+      gap: 20px;
+      &-btn{
+        @extend %buttonGradient;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 21px 28px;
+      }
+      &-text{
+        color:  #F2C94C;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        text-decoration-line: underline;
+      }
+    }
+  }
+}
+
+.block__map{
+  width: 1920px;
+  height: 426px;
+  flex-shrink: 0;
+}
+.call__form{
+  &-name{
+    width: 238px;
+    height: 56px;
+    flex-shrink: 0;
+    padding-left: 45px;
+    margin-left: 50px;
+    border-radius: 4px;
+    border: 2px solid #E0B473;
+
+  }
+  &-desc{
+    width: 532px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 2px solid  #E0B473;
+    margin-top: 27px;
+    margin-left: 50px;
+    padding-left: 45px;
+    background: #FFF;
+    margin-bottom: 25px;
+  }
+  &-user{
+    position: absolute;
+    right: 90%;
+    top: 35%;
+  }
+  &-men{
+    position: absolute;
+    left:36%;
+    top: 35%;
+  }
+  &-admin{
+    position: absolute;
+    top: 55%;
+    right: 90%;
+
+  }
+}
+//.second-style
+
+.call-title{
+  color: #2F5691;
+  font-family: Merriweather,sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 5%;
+  padding-bottom: 10px;
+}
+.form__title{
+  color: #2F5691;
+  font-size: 30px;
+  font-family: Roboto,sans-serif;
+  margin-bottom: 100%;
+}
+.call__right-info-subtitle{
+  color:  #6F737D;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  text-decoration-line: underline;
+}
+
+.call__right-info-button{
+  @extend %buttonGradient;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 21px 28px;
+  margin-top: 10%;
+  position: absolute;
+}
+.call__form-hajime{
+  position: absolute;
+  right: 90%;
+  top: 80px;
+}
+.call__form-women{
+  position: absolute;
+  right: 60%;
+  top: 80px;
+}
+.call__form-value{
+  position: absolute;
+  top: 40%;
+  right: 90%;
+}

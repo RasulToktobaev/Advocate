@@ -6,9 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cтоимость</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400;1,900&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,300;0,400;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
@@ -187,7 +189,7 @@
 
     <section class="ivan">
         <div class="container">
-            <h2 class="ivan__content-title">Красулин Иван Андреевич</h2>
+            <h2 data-aos="flip-up" class="ivan__content-title">Красулин Иван Андреевич</h2>
             <div class="ivan__content">
                 <div class="ivan__content-left">
                     <svg width="226" height="70" viewBox="0 0 226 70" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -248,28 +250,10 @@
                             Общий стаж юридической практики - 14 лет.</p>
                     </div>
                 </div>
-                <div class="ivan__content-right">
-                    <img src="../images/price-ivan.png" alt="">
-                    <svg class="ivan__content-svg" width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_326_26)">
-                            <path d="M62.3477 17.8957C60.0367 13.4136 56.6664 9.45578 52.6018 6.44995C52.0052 6.00897 51.1645 6.135 50.7233 6.73133C50.2821 7.32766 50.4083 8.16866 51.0047 8.60986C54.74 11.3721 57.8367 15.0088 59.9604 19.1269C62.1854 23.442 63.3136 28.1095 63.3136 33.0001C63.3136 49.7151 49.7148 63.3138 32.9999 63.3138C16.2849 63.3138 2.68618 49.7151 2.68618 32.9999C2.68618 16.2847 16.2849 2.68618 32.9999 2.68618C33.7415 2.68618 34.343 2.0847 34.343 1.34309C34.343 0.601479 33.7415 0 32.9999 0C14.8037 0 0 14.8037 0 32.9999C0 51.196 14.8037 65.9998 32.9999 65.9998C51.196 65.9998 65.9998 51.196 65.9998 32.9999C65.9998 27.752 64.7371 22.5292 62.3477 17.8957Z" fill="url(#paint0_linear_326_26)"/>
-                            <path d="M24.5563 17.6771C24.1364 17.9159 23.877 18.3618 23.877 18.8447V48.3196C23.877 49.0615 24.4784 49.6627 25.22 49.6627C25.9616 49.6627 26.5631 49.0615 26.5631 48.3196V21.2074L46.4482 33.0452L31.8256 42.4663C31.2022 42.8681 31.0222 43.6992 31.424 44.3226C31.826 44.9463 32.6569 45.1262 33.2806 44.7242L49.7256 34.1288C50.1164 33.877 50.3492 33.4409 50.3409 32.976C50.3326 32.5111 50.0846 32.0835 49.6851 31.8456L25.907 17.6905C25.4916 17.4436 24.9763 17.4383 24.5563 17.6771Z" fill="url(#paint1_linear_326_26)"/>
-                        </g>
-                        <defs>
-                            <linearGradient id="paint0_linear_326_26" x1="32.9999" y1="0" x2="32.9999" y2="65.9998" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#E0B473"/>
-                                <stop offset="1" stop-color="#E9CDA5"/>
-                            </linearGradient>
-                            <linearGradient id="paint1_linear_326_26" x1="37.109" y1="17.5016" x2="37.109" y2="49.6627" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#E0B473"/>
-                                <stop offset="1" stop-color="#E9CDA5"/>
-                            </linearGradient>
-                            <clipPath id="clip0_326_26">
-                                <rect width="66" height="66" fill="white"/>
-                            </clipPath>
-                        </defs>
-                    </svg>
-
+                <div data-aos="fade-up" class="ivan__content-right">
+                    <a data-fancybox href="https://youtu.be/joXMwJNO62U?si=BywC6zOjVpqnmoyr">
+                        <img src="../images/price-ivan.png" alt="Видио ">
+                    </a>
                 </div>
             </div>
         </div>
@@ -278,7 +262,7 @@
     <section class="education">
         <div class="container">
             <div class="education__content">
-                <div class="education__content-left">
+                <div  class="education__content-left">
 
                     <svg width="110" height="109" viewBox="0 0 110 109" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="35.5" cy="34.5" r="74.5" fill="#2F5691"/>
@@ -442,7 +426,7 @@
 
 
                 </div>
-                <div class="education__content-right">
+                <div  class="education__content-right">
                     <div class="education__content-right-box">
 
                         <svg width="110" height="109" viewBox="0 0 110 109" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1376,6 +1360,16 @@
 
 
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+
+
+</script>
+<script>
+    AOS.init();
+</script>
+<script src="/src/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
 </body>
 </html>
